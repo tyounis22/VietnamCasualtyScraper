@@ -55,16 +55,7 @@ Vetclean.categorical_convert()
 #%%
 Vetclean.jsonDump()
 #%%
-veteranDictionary = 
-#%%
-type(Vetclean.vet_df.to_dict)
-#%%
-Vetclean.vet_df
-#%%
-dict(veteranDictionary)
-#%%
-with open('cleaned_soldier_data.json', 'w') as f:
-    json.dump(veteranDictionary, f, indent=4)    
+  
 
 #Vetclean.vet_df.to_csv('/Users/Tareq/Desktop/VietnamWar/cleaned_soldier_data.csv')
 
