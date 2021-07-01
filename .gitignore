@@ -1,0 +1,5 @@
+#OS junk files 
+*.DS_Store
+*.csv
+*.json
+veteran_portraits/*
